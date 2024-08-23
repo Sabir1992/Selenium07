@@ -13,3 +13,4 @@ Feature: Filling form on demoqa.com
       | Image Path    | C:\Users\pc\Desktop\testqa.jpg |
       | Address       | Baku city                   |
     Then I should see the submitted email as "adilzadeilkin@gmail.com"
+

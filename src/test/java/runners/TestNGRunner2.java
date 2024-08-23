@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 
 @CucumberOptions(
-        features = "src/test/resources/features", // Feature file-lar ucun path
+        features = "src/test/resources/demoqaForm", // Feature file-lar ucun path
         glue = "stepDefinition", // Step definitionlar olan package qeyd olunur
         plugin = {
                 "pretty",

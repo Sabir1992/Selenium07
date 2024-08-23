@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features", // Path to feature files
+        features = "src/test/resources/demoqaForm", // Path to feature files
         glue = "stepDefinition", // Package for step definitions
         plugin = {
                 "pretty",
